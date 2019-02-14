@@ -2,8 +2,8 @@
 
 Contenidos: Seleccionar colecciones, filtros por áreas, por fechas y por nubes. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Cálculos de índices. Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
 
- - Script de ejemplo __Landsat 8__: [Acá](https://code.earthengine.google.com/5d74fb6613b8aacfbec59b41ebce91aa)
- - Script de ejemplo __Sentinel 2__: [Acá](https://code.earthengine.google.com/cb4ab8f4ffe698d45c0022972bf26b9f)
+ - Script de ejemplo __Landsat 8__: [Ver](https://code.earthengine.google.com/5c035724cc31bcfbae9f0054e67c76ee)
+ - Script de ejemplo __Sentinel 2__: [Ver](https://code.earthengine.google.com/7644b81dae0ed2f89c9e4b775a7af8a6)
 
 ## Trabajar con colecciones de imágenes
 
@@ -234,20 +234,6 @@ Map.addLayer (ndvi3.sldStyle(sld_intervals), {}, "NDVI 3 con SLD" );
 ## Exportar imágenes
 
 Permite guardar imágenes o tablas en una carpeta de Google Drive.
-
-Se pueden seleccionar bandas para exportar o exportar todas las bandas.
-
-Puede convenir cambiar el formato de los valores para que ocupe menos espacio. En este caso dado que contiene valores entre -1 y 1 en formato de 4 Bytes por pixel (números con decimales), lo vamos a convertir a número entero (2 bytes por píxel) con un factor de conversión de 10000.
-
-```javascript
-// Seleccionamos una sola banda (NDVI) para guardar.
-// Cambio de escala (x10.000) y Convierto a entero para que ocupe menos espacio
-
-var stack2 = stack1.select('NDVI').multiply(10000).uint16()
-```
-
-Finalmente se debe definir además de la imágen a exportar, el tamaño de píxel (scale), una FeatureCollection con el área de estudio (region) y el tamaño máximo de pixeles que puede contener la imagen (maxPixels):
-
 
 ```javascript
 // exportar imágen a Google Drive
