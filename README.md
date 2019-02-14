@@ -2,7 +2,7 @@
 
 ## Día 1
 
-Descripción general Google Earth Engine (Componentes de GE. Code Editor, Explorer y Clientes API). Mostrar un script complejo con un producto final.
+Descripción general Google Earth Engine (Componentes de GE. Code Editor, Explorer y Clientes API). Analizaremos un script complejo con un producto final.
 
 Colecciones disponibles. Herramientas de clasificación. Ventajas y limitaciones frente a otras plataformas.
 
@@ -10,8 +10,9 @@ Nociones básicas de Code Editor: Introducción al lenguaje Javascript. Visión 
 
 ### Inicio del tutorial
 
-  * [Manejo de datos vectoriales](https://github.com/GeoINTA/curso-gee/blob/master/datos_vectoriales.md): Manejo de geometrías y generación de features. Creación y administración de colecciones de features. Carga y visualización de vectores utilizando Google Fusion Table (FT). Manejo de iteraciones sobre colecciones de features. Exportar como tabla de datos. Realizar gráficos.
-  * [Manejo de datos rasters](https://github.com/GeoINTA/curso-gee/blob/master/datos_rasters.md): Seleccionar colecciones, filtros por áreas, por fechas y por nubes. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Cálculos de índices (NDVI, spectral unmixing e indicadores MapBiomas ndfi, por ejemplo, etc.). Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
+  * [Manejo de datos vectoriales](https://github.com/HWMuyulema/GEE/blob/master/datos_vectoriales.md): Manejo de geometrías y generación de features. Creación y administración de colecciones de features. Carga y visualización de vectores utilizando Google Fusion Table (FT). Manejo de iteraciones sobre colecciones de features. Exportar como tabla de datos. Realizar gráficos.
+  * [Manejo de datos rasters](https://github.com/HWMuyulema/GEE/blob/master/datos_rasters.md): Seleccionar colecciones, filtros por áreas, por fechas y por nubes. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
+  * [Manejo de datos radar](https://github.com/HWMuyulema/GEE/blob/master/datos_rasters.md): Seleccionar colecciones, filtros por áreas y por fechas. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Cálculos de índices (NDVI, spectral unmixing e indicadores MapBiomas ndfi, por ejemplo, etc.). Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
 
 ## Día 2
 
@@ -23,7 +24,7 @@ Incorporación de datos de campo y generación de datos de entrenamiento desde l
 
 #### Caso 2: Análisis de datos territorial
 
-Dada una carta de la región a la que pertenece el alumno realizar las siguientes actividades:
+Por los trabajos realiados en la dirección el alumno realizar las siguientes actividades:
 
  1. Generar un conjunto muestreado en la carta de interés o importar puntos que ud haya traído para el curso.
  2. Construir una colección de imágenes que a su criterio sean apropiadas para las fechas de los relevamientos. Recuerde que las colecciones son parte de objetos ImageCollection y estos contienen las diferentes funcionalidades para realizar filtrados.
