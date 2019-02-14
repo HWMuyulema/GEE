@@ -31,8 +31,8 @@ La definición de esa geometría (según la definición [GeoJSON](https://tools.
       "geodesic": true, // WGS84 Lat/Lon
       "type": "Point",
       "coordinates": [
-        -60.54,
-        -31.85
+        -79.36,
+        -1.71
       ]
     }
 ```
@@ -53,7 +53,7 @@ El resto de las geometrías se construyen de la misma forma, veamos:
 -   Líneas
 
 ```javascript
-    var lineString = ee.Geometry.LineString([[-63, -36], [-60.54, -31.85], [-58, -28], [-63, -27]]);
+   var lineString = ee.Geometry.LineString([[-79.56,0.031], [-80.15,-1.37], [-78.81,-0.71], [-77.56,-0.71]]);
 ```
 
 [ee.Geometry.LineString](https://developers.google.com/earth-engine/api_docs#eegeometrylinestring) recibe una lista de puntos y parámetros opcionales.
@@ -73,12 +73,12 @@ Podemos centrar el mapa en una geometría o feature particular, eso lo podemos h
 -   Anillo de línea
 
 ```javascript
-    var linearRing = ee.Geometry.LinearRing(
-    [[-63, -36.09],[-59.54,-31.85],
-    [-58, -28], [-63, -25],
-    [-64, -27],[-63, -36]]);
+   var linearRing = ee.Geometry.LinearRing(
+[[-80.11,-1.29],[-80.29,-2.01],
+[-79.91,-2.10],[-79.47,-2.07],
+[-79.26,-1.65],[-79.67,-1.33],
+[-80.11,-1.29]]);
 ```
-
 [ee.Geometry.LinearRing](https://developers.google.com/earth-engine/api_docs#eegeometrylinearring) recibe una lista de puntos que a diferencia de LineString comienza y termina con el mismo punto para poder cerrar el anillo. También tiene parámetros opcionales.
 
 Y si, al mapa!!
@@ -90,7 +90,7 @@ Y si, al mapa!!
 -   Rectángulo
 
 ```javascript
-    var rectangle = ee.Geometry.Rectangle([-62,-33, -59,-31]);
+    var rectangle = ee.Geometry.Rectangle([-79,-1,-80,0]);
 ```
 
 [ee.Geometry.Rectangle](https://developers.google.com/earth-engine/api_docs#eegeometryrectangle) recibe una lista con esquinas mínimas y máximas del rectángulo, como una lista de dos puntos en formato de coordenadas GeoJSON 'Point' o una lista de dos ee.Geometry que describen un punto, o una lista de cuatro números en el orden __xMin, yMin , xMax, yMax__.
@@ -104,7 +104,7 @@ A mapear!!
 -   Polígono
 
 ```javascript
-    var vertices = [ [-62.935,-34.415], [-61.745,-34.411], [-61.388,-34.068],[-62.663,-34.075] ];
+    var vertice =[[-80.19,-2.23],[-79.71,-2.34],[-79.71,-1.98],[-80.24,-1.92],[-80.19,-2.23]];
     var poligono = ee.Geometry.Polygon( vertices );
 ```
 
@@ -260,16 +260,18 @@ Comenzamos con dos geometrías de polígono que las he creado desde el mapa como
 ```javascript
 
 var poli1 = ee.Geometry.Polygon(
-     [[[-63.62113952636719, -25.129433436071757],
-       [-63.572044372558594, -25.128811779454853],
-       [-63.57135772705078, -25.054501051619468],
-       [-63.622169494628906, -25.05512308589585]]]);
+      [[[-79.6244546527131,-1.4476098415359253],
+       [-79.73294464294747,-1.4489826938400079],
+       [-79.83456817810372,-1.6329370607280587],
+       [-79.62582794372872,-1.6343097935796802],
+       [-79.6244546527131,-1.4476098415359253]]]);
 
 var poli2 = ee.Geometry.Polygon(
-       [[[-63.645172119140625, -25.061965254565465],
-         [-63.65753173828125, -25.13005508952488],
-         [-63.59367370605469, -25.128811779454853],
-         [-63.59367370605469, -25.061343255018567]]]);
+      [[[-79.66702667419747,-1.4023052538671108],
+          [-79.67801300232247,-1.6315643269388478],
+          [-79.46789947693185,-1.6398007155944714],
+          [-79.46377960388497,-1.3981866110774313],
+          [-79.66702667419747,-1.4023052538671108]]]);
 ```
 Calculamos la unión de las dos geometrías. Donde el primer parámetro es la geometría que se quiere unir y el segundo es un margen de error. **ErrorMargin** es la cantidad máxima de error tolerada al realizar cualquier reproyección necesaria, el valor está expresado en metros.
 
@@ -328,10 +330,11 @@ Entonces, necesitamos un objeto Geometry y opcionalmente un diccionario con los 
 
 // La geometría
 var poligono = ee.Geometry.Polygon(
-       [[[-63.33892822265625, -25.150878651548442],
-         [-63.33824157714844, -25.17791290009134],
-         [-63.31043243408203, -25.17760219565173],
-         [-63.31043243408203, -25.15025710411473]]]);
+        [[[-79.66702667419747,-1.4023052538671108],
+          [-79.67801300232247,-1.6315643269388478],
+          [-79.46789947693185,-1.6398007155944714],
+          [-79.46377960388497,-1.3981866110774313],
+          [-79.66702667419747,-1.4023052538671108]]]);
 ```
 
 La declaración del Feature:
@@ -353,7 +356,7 @@ Map.centerObject(miFeature, 12);
 La geometría del Feature puede ser nula y se podría crear el Feature solo con un diccionario:
 
 ```javascript
-var dict = {distancia: ee.Number(10).add(150), lugar: 'Chivilcoy'};
+var dict = {distancia: ee.Number(10).add(150), lugar: 'Puebloviejo'};
 var featureSinGeo = ee.Feature(null, dict);
 ```
 
@@ -361,9 +364,9 @@ Los Features tienen las mismas funcionalidades para gestionar sus geometrías qu
 
 ```javascript
 var feature_ejemplo = ee.Feature(
-      ee.Geometry.Point([-63.2951545715332,-25.163930416282465]))
-        .set('Nombre', 'Eldes Monte')
-        .set('Altura', 100);
+      ee.Geometry.Point([-79.3283, -1.7819]))
+        .set('Nombre', 'Montalvo')
+        .set('Altura', 100);
 
 // Recupero una propiedad del feature
 var nombre = feature_ejemplo.get('Nombre');
@@ -389,7 +392,7 @@ Es posible crear un FeatureCollection a partir de generar una muestra al azar [e
 
 ```javascript
 
-var region = ee.Geometry.Rectangle(-63.457, -25.155, -62.699, -24.714);
+var region = ee.Geometry.Rectangle(-80.051, -1.236, -79.618,-1.531);
 var randomPoints = ee.FeatureCollection.randomPoints( region,
     100, // cantidad de puntos
     123); // seed
