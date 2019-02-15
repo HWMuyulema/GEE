@@ -1,9 +1,7 @@
 <!-- $theme: default -->
 <!-- footer: Taller GEE - MapBiomas - EEA Salta. Noviembre 2017 -->
 <!-- page_number: true -->
-![100% top bg](../images/mapbiomas-bg.jpg)
 
-<br>
 Conceptos Básicos de GEE
 ========================
 
