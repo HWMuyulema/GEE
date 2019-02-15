@@ -12,8 +12,6 @@ Manejo de datos vectoriales
 <br>
 <br>
 
-![50% top](../images/logos_pie_de_pagina.png)
-
 
 
 ---
