@@ -18,7 +18,7 @@ Nociones básicas de Code Editor: Introducción al lenguaje Javascript. Visión 
 
 ### Casos de uso: Tutorial
 
-#### Caso 1: Análisi de imágenes radar
+#### Caso 1: Análisis de imágenes radar
 
 Incorporación de datos de campo y generación de datos de entrenamiento desde la interfaz de GE. Imágenes RADAR SAR Sentinel 1 del área de estudio. Muestreo a partir de los datos de campo. Separación en training/testing.
 
