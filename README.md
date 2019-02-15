@@ -18,18 +18,17 @@ Nociones básicas de Code Editor: Introducción al lenguaje Javascript. Visión 
 
 ### Casos de uso: Tutorial
 
-#### Caso 1: Clasificaciones supervisadas
+#### Caso 1: Análisi de imágenes radar
 
-Incorporación de datos de campo y generación de datos de entrenamiento desde la interfaz de GE. Cálculo de mosaicos de índices del área de estudio. Muestreo a partir de los datos de campo. Separación en training/testing. Algoritmos disponibles para clasificación supervisada. Parametrización de los algoritmos. Ajustes. Validación utilizando matrices de confusión (accuracy, kappa). Aplicación del modelo y mapeo de resultados. Visualizar y exportar los resultados de  la clasificación.
+Incorporación de datos de campo y generación de datos de entrenamiento desde la interfaz de GE. Imágenes RADAR SAR Sentinel 1 del área de estudio. Muestreo a partir de los datos de campo. Separación en training/testing.
 
-#### Caso 2: Análisis de datos territorial
+#### Caso 2: Análisis de datos 
 
-Por los trabajos realiados en la dirección el alumno realizar las siguientes actividades:
+Por los trabajos realizados en la dirección el alumno realizar las siguientes actividades:
 
- 1. Generar un conjunto muestreado en la carta de interés o importar puntos que ud haya traído para el curso.
+ 1. Generar un conjunto muestreado en la carta de interés.
  2. Construir una colección de imágenes que a su criterio sean apropiadas para las fechas de los relevamientos. Recuerde que las colecciones son parte de objetos ImageCollection y estos contienen las diferentes funcionalidades para realizar filtrados.
- 3. Construya un mosaico del área de estudio donde estén incluidas todas las variables (índices, bandas, reducciones, etc.) que ud considere necesarias para la clasificación.
- 4. Extraiga información a partir de los puntos de muestreo y analicela. Realice gráficos para determinar bandas de mayor separabilidad y umbrales de separación.
- 5. Genere reglas de decisión a partir del análisis realizado en el punto anterior.
- 6. Aplicar las reglas generadas para realizar una clasificación.
- 7. Visualizar los resultados.
+ 3. Construya un mosaico del área de estudio donde estén incluidas todas las variables (Polaridad, Seleccion, etc.) que ud considere necesarias.
+ 4. Extraiga información y analicela. Realice gráficos para determinar bandas de mayor separabilidad y umbrales de separación.
+ 5. Visualizar los resultados.
+
