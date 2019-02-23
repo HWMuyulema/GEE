@@ -225,5 +225,5 @@ Los objetos fechas son muy importantes para filtrar las colecciones, especificam
 ## Bibliografía
 -  Introduction to JavaScript for Earth Engine. https://developers.google.com/earth-engine/tutorial_js_01
 -  Earth Engine Objects. https://developers.google.com/earth-engine/tutorial_js_02
--  [Gis&Beers:](http://www.gisandbeers.com/google-earth-engine-script-teledeteccion/ "Leeo Buen tutorial")
+-  [Gis&Beers:](http://www.gisandbeers.com/google-earth-engine-script-teledeteccion/ "Leelo Buen tutorial")
 -  Lenguaje latino:https://github.com/primitivorm/latino
