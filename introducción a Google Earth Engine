@@ -1,23 +1,23 @@
-##ventajas y limitaciones frente a otras plataformas
+## ventajas y limitaciones frente a otras plataformas
 * Se usen la enorme infraestructura computacional - la “nube” de Google- para analizar datos. 
 * como la reducción del tiempo de los análisis de semanas a segundos
 * Acceso a un conjunto de datos enorme
 * como la información completa del satélite Landsat de los últimos 25 años o la colaboración y estandarización al crear una plataforma común para el análisis de datos globales.
 * Acceso a terabytes (Tb) de información junto con las capacidades de procesamiento de Google
-###Permitirá Análizar
+### Permitirá Análizar
 * Deforestación
 * Inundaciones
 
-##interfáz GEE y sus componentes
+## interfáz GEE y sus componentes
 
 
-##explorar GEE API (guides, tutorials, datasets, etc.)
+## explorar GEE API (guides, tutorials, datasets, etc.)
 
 
-##tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
+## tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
 
 
-##Consultar la documentación de las funciones
+## Consultar la documentación de las funciones
 
 
-##subir archivos tipo vector y raster a GEE
+## subir archivos tipo vector y raster a GEE
