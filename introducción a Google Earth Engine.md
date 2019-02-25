@@ -8,10 +8,10 @@
 
   - Ventajas y limitaciones frente a otras plataformas
   - Interfáz GEE y sus componentes
-  - explorar GEE API (guides, tutorials, datasets, etc.)
-  - tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
+  - Explorar GEE API (guides, tutorials, datasets, etc.)
+  - Tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
   - Consultar la documentación de las funciones
-  - subir archivos tipo vector y raster a GEE
+  - Subir archivos tipo vector y raster a GEE
 
 # New Features!
 
