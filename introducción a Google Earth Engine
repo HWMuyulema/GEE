@@ -1,23 +1,25 @@
-## ventajas y limitaciones frente a otras plataformas
-* Se usen la enorme infraestructura computacional - la “nube” de Google- para analizar datos. 
-* como la reducción del tiempo de los análisis de semanas a segundos
-* Acceso a un conjunto de datos enorme
-* como la información completa del satélite Landsat de los últimos 25 años o la colaboración y estandarización al crear una plataforma común para el análisis de datos globales.
-* Acceso a terabytes (Tb) de información junto con las capacidades de procesamiento de Google
-### Permitirá Análizar
-* Deforestación
-* Inundaciones
-
-## interfáz GEE y sus componentes
+## ventajas y limitaciones frente a otras plataformas   
+* Se usen la enorme infraestructura computacional - la “nube” de Google- para analizar datos.    
+* como la reducción del tiempo de los análisis de semanas a segundos   
+* Acceso a un conjunto de datos enorme   
+* como la información completa del satélite Landsat de los últimos 25 años o la colaboración y estandarización al crear una plataforma común para el análisis de datos globales.   
+* Acceso a terabytes (Tb) de información junto con las capacidades de procesamiento de Google   
 
 
-## explorar GEE API (guides, tutorials, datasets, etc.)
+### Permitirá Análizar   
+* Deforestación   
+* Inundaciones   
+
+## interfáz GEE y sus componentes   
 
 
-## tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
+## explorar GEE API (guides, tutorials, datasets, etc.)   
 
 
-## Consultar la documentación de las funciones
+## tipos de formatos GEE y tipos de códigos (client- vs server-based processing)   
 
 
-## subir archivos tipo vector y raster a GEE
+## Consultar la documentación de las funciones   
+
+
+## subir archivos tipo vector y raster a GEE   
