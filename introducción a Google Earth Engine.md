@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Introducción A Google Earth Engine.
+## Introducción a Google Earth Engine (GEE).
 
   - Ventajas y limitaciones frente a otras plataformas
   - Interfáz GEE y sus componentes
