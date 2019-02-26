@@ -1,0 +1,19 @@
+var s2 = ee.ImageCollection('COPERNICUS/S2').filterDate('2016-03-01', '2016-05-31')
+.filter(ee.Filter.or(ee.Filter.calendarRange(3,5,'month'),
+ee.Filter.calendarRange(10,12,'month')));
+
+var composite = s2.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
+              .map(maskS2clouds)
+              .median();
+
+function maskS2clouds(image) {
+  var qa = image.select('QA60');
+  var cloudBitMask = ee.Number(2).pow(10).int();
+  var cirrusBitMask = ee.Number(2).pow(11).int();
+  var mask = 
+  qa.bitwiseAnd(cloudBitMask).eq(0).and(qa.bitwiseAnd(cirrusBitMask).eq(0));
+  return image.updateMask(mask).divide(10000);
+  }
+
+Map.setCenter(79.58, -1.3182, 13);
+Map.addLayer(composite, {bands: ['B3', 'B2', 'B1'], min: 0, max: 0.3});
