@@ -17,12 +17,12 @@ var guayas = ee.ImageCollection('')
 .filterBounds(ciudad)
 .filterDate(star,end);
 
--Conteo de imágenes
+- Conteo de imágenes
 
 var contar = guayas.size();
 print('cuantas imágens hay',contar)
 
--Cantidad de nubes
+- Cantidad de nubes
 
 var cantidadaDeNubes = ee.Image(guayas.sort('CLOUD_COVER').first());
 print('la mejor es',mejori)
@@ -32,23 +32,23 @@ print('la mejor es',mejori)
 var fecha = mejori.get('DATE_ACQUIRED')
 print('fecha tomada',cantidadaDeNubes)
 
--Imagen
+- Imagen
 
 var imagen = ee.Image('id:una sola imagen');
 
 Map.addLayer(imagen)
 
--Nombre de las bandas
+- Nombre de las bandas
 
 var nombreBandas = image.bandNames();
 print('Nombre de las bandas:', nombreBandas);
 
--SRC
+- SRC
 
 var proyeccion = image.select('B1').projection();
 print('La proyección es:', proyeccion)
 
--Px
+- Px
 
 var escala = image.select('B1').projection().nominalScale();
 print('la escala es (m): ', escala)
@@ -58,7 +58,7 @@ print('la escala es (m): ', escala)
 var propiedades = image.propertyNames();
 print('Las propiedades son:', propiedades);
 
--Propiedad específica
+- Propiedad específica
 
 var nubes = image.get('CLOUD_COVER');
 print('las nubes :', nubes)
