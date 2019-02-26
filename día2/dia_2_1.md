@@ -1,6 +1,6 @@
-#luego de haber entendido los conseptosd básicos
+# luego de haber entendido los conseptos básicos
 
-Vamos a escribir 
+## Vamos a escribir 
 
 - Declaramos una ubicación
 
