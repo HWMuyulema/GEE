@@ -1,4 +1,10 @@
-var ciudad = ee.Geometry.Point(-79.91486, -2.12678);
+#luego de haber entendido los conseptosd básicos
+
+Vamos a escribir 
+
+- Declaramos una ubicación
+
+var ciudad = ee.Geometry.Point();
 
 Map.addLayer(ciudad);
 
