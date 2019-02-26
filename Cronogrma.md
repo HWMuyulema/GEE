@@ -13,7 +13,7 @@
 |   |* subir archivos tipo vector y raster a GEE
 |   |   
 |27/02/2019  |Tratamiento de imágeness multiespectrales I  |
-| 08:30-10:30  |*consulta y visualización de imágenes Sentinel 2 disponibles en la nube, por periodo y área de interés
+| 08:30-10:30  |*consulta y visualización de imágenes Sentinel 2 disponibles en la nube, por periodo y área de interés(https://github.com/HWMuyulema/GEE/blob/master/d%C3%ADa2/dia_2_1.md)
 |   |*generación de mosaicos desde imágenes en la nube
 |   |*generación de mosaicos desde imágenes ubicadas en un equipo/servidor
 |   |*generación de máscaras de nubes
