@@ -8,8 +8,9 @@
 |   |* Consultar la documentación de las funciones
 |   |* subir archivos tipo vector y raster a GEE
 |26/02/2019  |Tratamiento de imagenes multiespectrales I  |
-|  |  |
-|  |  |
-|   |   |
-|   |   |
-|   |   |
+| 08:30-10:30  |*consulta y visualización de imágenes Sentinel 2 disponibles en la nube, por periodo y área de interés
+|   |*generación de mosaicos desde imágenes en la nube
+|   |*generación de mosaicos desde imágenes ubicadas en un equipo/servidor
+|   |*generación de máscaras de nubes
+|   |*exportar raster
+
