@@ -1,4 +1,4 @@
-[Luego de haber entendido los conseptos básicos]( https://github.com/HWMuyulema/GEE/blob/master/conceptos_basicos.md 'no es nada dificil' )
+[Luego de haber entendido los conseptos básicos]( https://github.com/HWMuyulema/GEE/blob/master/conceptos_basicos.md 'Nada es  dificil' )
 
 ## Vamos a escribir 
 
@@ -8,26 +8,26 @@ var ciudad = ee.Geometry.Point();
 
 Map.addLayer(ciudad);
 
-var star = ee.Date('2010-01-01');
-var end = ee.Date('2010-12-31');
+var star = ee.Date('');
+var end = ee.Date('');
 
-var guayas = ee.ImageCollection('LANDSAT/LE07/C01/T1_TOA')
+var guayas = ee.ImageCollection('')
 .filterBounds(ciudad)
 .filterDate(star,end);
 
 var contar = guayas.size();
 print('cuantas imágens hay',contar)
-var mejori = ee.Image(guayas.sort('CLOUD_COVER').first());
+
+
+var cantidadaDeNubes = ee.Image(guayas.sort('CLOUD_COVER').first());
 print('la mejor es',mejori)
 
 var fecha = mejori.get('DATE_ACQUIRED')
-print('fecha tomada',fecha)
+print('fecha tomada',cantidadaDeNubes)
 
-var gua = ee.Image('LANDSAT/LE07/C01/T1_TOA/LE07_011061_20001123');
+var imagen = ee.Image('id:una sola imagen');
 
-Map.addLayer(gua)
-
-var image  = ee.Image('LANDSAT/LE07/C01/T1_TOA/LE07_011061_20101002');
+Map.addLayer(imagen)
 
 
 var nombreBandas = image.bandNames();
