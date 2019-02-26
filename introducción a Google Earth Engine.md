@@ -8,7 +8,7 @@
 
   - Ventajas y limitaciones frente a otras plataformas
   - Interfáz GEE y sus componentes
-  - Explorar GEE API (guides, tutorials, datasets, etc.)
+  - [Explorar GEE API (guides, tutorials, datasets, etc.)](https://developers.google.com/earth-engine/datasets/)
   - Tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
   - Consultar la documentación de las funciones
   - Subir archivos tipo vector y raster a GEE
