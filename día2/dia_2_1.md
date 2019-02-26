@@ -1,4 +1,4 @@
-[luego de haber entendido los conseptos básicos]( https://github.com/HWMuyulema/GEE/blob/master/conceptos_basicos.md )
+[Luego de haber entendido los conseptos básicos]( https://github.com/HWMuyulema/GEE/blob/master/conceptos_basicos.md 'no es nada dificil' )
 
 ## Vamos a escribir 
 
