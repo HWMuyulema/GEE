@@ -25,8 +25,8 @@
 | 08:30-10:30  | Clasificación de imágenes  |
 |   |   |
 | 01/03/2019  | Tratamiento de imágenes Radar  |
-|   |*consulta y visualización de imágenes Sentinel 1 disponibles en la nube, por periodo y área de interés
-|   |*crear histograma por banda
+|   | *consulta y visualización de imágenes Sentinel 1 disponibles en la nube, por periodo y área de interés
+|   | *crear histograma por banda
 |   | *aplicar filtros a la imagen radar (paso bajo/medio, otros)
 
 
