@@ -9,7 +9,7 @@
 |   |* Interfáz GEE y sus componentes
 |   |*  Explorar GEE API (guides, tutorials, datasets, etc.)
 |   |* Tipos de formatos GEE y tipos de códigos (client- vs server-based processing)
-|   |* [Consultar la documentación de las funciones](https://medium.freecodecamp.org/functional-programming-principles-in-javascript-1b8fc6c3563f;https://www.w3schools.com/js/js_functions.asp)
+|   |* [Consultar la documentación de las funciones](https://medium.freecodecamp.org/functional-programming-principles-in-javascript-1b8fc6c3563f)
 |   |* Subir archivos tipo vector y raster a GEE
 |   |   
 |27/02/2019  |Tratamiento de imágeness multiespectrales I  |
