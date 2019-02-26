@@ -1,9 +1,5 @@
 # Curso de Tecnologías Avanzadas en Teledetección y Geoestadística
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 ## Introducción a Google Earth Engine (GEE).
 
   - [Ventajas y limitaciones frente a otras plataformas](https://www.cursosgis.com/que-es-google-earth-engine/)
