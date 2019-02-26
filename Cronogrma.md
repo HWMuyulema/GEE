@@ -17,7 +17,7 @@
 |   |*Generación de mosaicos desde imágenes en la nube
 |   |*Generación de mosaicos desde imágenes ubicadas en un equipo/servidor
 |   |*[Generación de máscaras de nubes](https://github.com/HWMuyulema/GEE/blob/master/d%C3%ADa2/d%C3%ADa_2_2.md)
-|   |*Exportar raster
+|   |*[Exportar raster](https://github.com/HWMuyulema/GEE/blob/master/d%C3%ADa2/dia2_3.md)
 |   |
 | 28/02/2019  | Tratamiento de imágenes multiespectrales II  |
 |08:30-10:30   |*Cálculo del NDVI
