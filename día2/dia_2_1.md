@@ -20,7 +20,7 @@ var guayas = ee.ImageCollection('')
 - Conteo de imágenes
 
 var contar = guayas.size();
-print('cuantas imágens hay',contar)
+print('cuantas imágenes hay',contar)
 
 - Cantidad de nubes
 
@@ -40,35 +40,35 @@ Map.addLayer(imagen)
 
 - Nombre de las bandas
 
-var nombreBandas = image.bandNames();
+var nombreBandas = imagen.bandNames();
 print('Nombre de las bandas:', nombreBandas);
 
 - SRC
 
-var proyeccion = image.select('B1').projection();
+var proyeccion = imagen.select('B1').projection();
 print('La proyección es:', proyeccion)
 
 - Px
 
-var escala = image.select('B1').projection().nominalScale();
+var escala = imagen.select('B1').projection().nominalScale();
 print('la escala es (m): ', escala)
 
 -Propiedades de la imagen
 
-var propiedades = image.propertyNames();
+var propiedades = imagen.propertyNames();
 print('Las propiedades son:', propiedades);
 
 - Propiedad específica
 
-var nubes = image.get('CLOUD_COVER');
+var nubes = imagen.get('CLOUD_COVER');
 print('las nubes :', nubes)
 
 
-var sistema= image.get('system:footprint');
+var sistema= imagen.get('system:footprint');
 print('el sistema de B2 es :', sistema)
 
 
-var fecha = ee.Date(image.get('system:time_start'));
+var fecha = ee.Date(imagen.get('system:time_start'));
 print('La fecha es: ' ,fecha)
 
 
