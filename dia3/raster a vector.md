@@ -15,3 +15,4 @@ var classes = landcover.reduceToVectors({
 }); 
 var result = ee.FeatureCollection(classes); 
 Map.addLayer(result);
+
