@@ -10,7 +10,7 @@ var image = ee.Image(
   
 
 // Analizar el indice de diferencia normailizada de la vegetacion NDVI  
-// forma 1  
+// Forma 1  
 var nir = image.select('B5'); 
 var red = image.select('B4'); 
 var ndvi = nir.subtract(red).divide(nir.add(red)).rename('NDVI'); 
@@ -24,7 +24,7 @@ Map.centerObject(image, 9);
 var ndviParams = {min: -1, max: 1, palette: ['blue', 'white', 'green']};  
 Map.addLayer(ndvi, ndviParams, 'NDVI image'); 
 
-//forma 3 matemática de bandas
+//Forma 3 matemática de bandas
 
 
 
