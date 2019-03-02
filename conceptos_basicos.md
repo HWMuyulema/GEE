@@ -11,6 +11,7 @@
 > 4000 new image every day      
 > 5 million images         
 > 5 petabytes of data 
+[slides #19](https://docs.google.com/presentation/d/1hT9q6kWigM1MM3p7IEcvNQlpPvkedW-lgCCrIqbNeis/edit#slide=id.g4e98c855a5_0_1051 'aqui esta la información de catalogos')
 
 
 En este tutorial vamos a ver los primeros conceptos de GEE y su utilización desde el [Code Editor](https://code.earthengine.google.com/).
