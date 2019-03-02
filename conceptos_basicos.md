@@ -4,13 +4,13 @@
 2. Poder de procesamiento (computation engine)
 3. Platforma desarrollo interactivo
 4. Guarda y comparte las ruitna de trabajo
-
+```
 ## Catálogo de datos 
 < 200 public database>   
 < 4000 neew image every day>      
 < 5 million images>         
 < 5 petabytes of data> 
-
+```
 
 En este tutorial vamos a ver los primeros conceptos de GEE y su utilización desde el [Code Editor](https://code.earthengine.google.com/).
 Lo que vamos a ver en primer lugar son algunos de los tipos de datos y los principios básicos del módulo **ee.algo**.
