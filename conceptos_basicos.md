@@ -1,4 +1,10 @@
 # Conceptos Básicos de GEE
+## Porqué es un software de análisis de imagen tan potente?
+1. Catalogo de datos publico: grandes cantides de datos disponibles públicamente ( nos es necesario almacenar datos
+2. Poder de procesamiento
+3. Platforma desarrollo interactivo
+4 Guarda y comparte las ruitna de trabajo
+
 
 En este tutorial vamos a ver los primeros conceptos de GEE y su utilización desde el [Code Editor](https://code.earthengine.google.com/).
 Lo que vamos a ver en primer lugar son algunos de los tipos de datos y los principios básicos del módulo **ee.algo**.
