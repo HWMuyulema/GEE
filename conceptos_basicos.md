@@ -6,9 +6,9 @@
 4. Guarda y comparte las ruitna de trabajo
 
 ## Catálogo de datos 
-< 200 public database> 
-< 4000 neew image every day>    
-< 5 million images>        
+< 200 public database>   
+< 4000 neew image every day>      
+< 5 million images>         
 < 5 petabytes of data> 
 
 
