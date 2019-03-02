@@ -4,8 +4,9 @@
 2. Poder de procesamiento (computation engine)
 3. Platforma desarrollo interactivo
 4. Guarda y comparte las ruitna de trabajo
-```
+
 ## Catálogo de datos 
+```
 < 200 public database>   
 < 4000 neew image every day>      
 < 5 million images>         
