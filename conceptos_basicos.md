@@ -7,10 +7,10 @@
 
 ## Catálogo de datos 
 ```
-< 200 public database>   
-< 4000 neew image every day>      
-< 5 million images>         
-< 5 petabytes of data> 
+> 200 public database  
+> 4000 new image every day      
+> 5 million images         
+> 5 petabytes of data 
 ```
 
 En este tutorial vamos a ver los primeros conceptos de GEE y su utilización desde el [Code Editor](https://code.earthengine.google.com/).
