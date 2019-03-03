@@ -1,6 +1,5 @@
 [este es el ejercicio de hoy](https://code.earthengine.google.com/3be5d07a5777fe61cffb52b4ece4acde 'no abrir hasta terminar)
 
-
 var image = ee.Image(l8.filterBounds(roi)
     .filterDate('2016-01-01', '2018-12-31')
     .sort('CLOUD_COVER')
