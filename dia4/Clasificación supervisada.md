@@ -55,4 +55,4 @@ Export.image.toDrive({
   })
 
 
-Link de hoy [Github WHM](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
+Link de hoy [Github WHMuyulema](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
