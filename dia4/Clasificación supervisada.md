@@ -16,7 +16,8 @@ var training = image.select(bands).sampleRegions({
   collection: newfc,    
   properties: ['landcover'],     
   scale: 30 
-}); 
+});     
+
 // print(training)  
 
 
