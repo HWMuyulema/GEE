@@ -1,4 +1,4 @@
-Este es el ejercicio de hoy [Github WMH](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
+Este es el ejercicio de hoy [Github WHM](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
 
 var image = ee.Image(l8.filterBounds(roi)
     .filterDate('2016-01-01', '2018-12-31')
