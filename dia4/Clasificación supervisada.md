@@ -1,4 +1,4 @@
-Este es el ejercicio de hoy [Github WHM](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
+
 
 var image = ee.Image(l8.filterBounds(roi)   
     .filterDate('2016-01-01', '2018-12-31') 
@@ -35,6 +35,8 @@ Map.addLayer(classified, {min: 0, max: 2, palette: ['yellow', 'blue', 'red']});
 
 
 
+
+
 var corte = classified.clip(guayas) 
 Map.addLayer(corte, {min: 0, max: 2, palette: ['yellow', 'blue', 'red']}, 'clasificacion guayas');  
 print(corte)    
@@ -50,3 +52,6 @@ Export.image.toDrive({
   maxPixels: 1e12,  
   crs : 'EPSG:32717'    
   })
+
+
+Link de hoy [Github WHM](https://code.earthengine.google.com/0f6ce47afcc96cf638ef365f99349861)
