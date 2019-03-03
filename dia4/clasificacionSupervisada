@@ -1,5 +1,5 @@
 
-[Este es el ejercicio de hoy] (https://code.earthengine.google.com/3be5d07a5777fe61cffb52b4ece4acde)
+[Este es el ejercicio de hoy] (https://code.earthengine.google.com/3be5d07a5777fe61cffb52b4ece4acde/)
 
 var image = ee.Image(l8.filterBounds(roi)
     .filterDate('2016-01-01', '2018-12-31')
@@ -39,3 +39,18 @@ print(classifier.explain());
 
 var classified = image.select(bands).classify(classifier);
 Map.addLayer(classified, {min: 0, max: 2, palette: ['yellow', 'blue', 'red']});
+
+var corte = classified.clip(guayas)
+Map.addLayer(corte, {min: 0, max: 2, palette: ['yellow', 'blue', 'red']}, 'clasificacion guayas');
+print(corte)
+
+Export.image.toDrive({
+  image: corte,
+  description: 'clasificacionGuayas',
+  scale: 30,
+  region: guayas,
+  fileFormat: 'GeoTIFF',
+  maxPixels: 1e12,
+  crs : 'EPSG:32717'
+  
+})
