@@ -1,4 +1,4 @@
-
+# Clasificación supervisada
 
 var image = ee.Image(l8.filterBounds(roi)   
     .filterDate('2016-01-01', '2018-12-31') 
