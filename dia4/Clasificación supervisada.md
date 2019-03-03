@@ -7,20 +7,6 @@ var image = ee.Image(l8.filterBounds(roi)
 Map.addLayer(image, {bands: ['B5', 'B4', 'B3'], max: 0.3}, 'image');    
 
 
-
-// Dibuja puntos a mano haciendo clic en el punto
-// icon in the geometry drawing tools.  Click '+new layer' to make
-// En el icono de las herramientas Geometry Imports. Haga clic en '+ new layer' para hacer
-// three sets of points, each set representing samples from a class.  
-// For each set of points, in the imports, click the gear icon and 
-// 'Import as' FeatureCollection.  Also add a property called 
-// 'landcover' and set a consecutive integer starting from 0 for 
-// the first class.  Merge these three sets to make
-// a single point training dataset, where the class integer stored
-// in the landcover property is the classProperty argument of the 
-// classifier.
-
-
 var newfc = urbano.merge(cultivo).merge(agua);  
 // print(newfc);    
 
