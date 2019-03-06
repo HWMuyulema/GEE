@@ -90,4 +90,4 @@ Existen tres tipos de archivos: CLS, GND, OCN:
 
 
 
-![100% center](../images//sentinel1.png)
+![100% center](../images/sentinel1.png.png)
