@@ -1,6 +1,6 @@
-var imageCollection : ImageCollection"Sentinel-1 SAR GRD...
-Var  table : table (subir la tabla propuesta)
-var Geometry ; Polygon (hacer un poligono del área propuesta)
+var imageCollection : ImageCollection"Sentinel-1 SAR GRD...  
+Var  table : table (subir la tabla propuesta)  
+var Geometry ; Polygon (hacer un poligono del área propuesta)  
 
 ----------------
 
