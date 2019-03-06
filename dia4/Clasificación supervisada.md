@@ -1,5 +1,16 @@
 # Clasificación supervisada
 
+
+La clasificación supervisada y no supervisada permite explorar diferentes tipos de atributos o clases por medio del análisis 
+
+estadístico multivariado, este proceso identifica los valores de cada píxel de una o varias bandas de una imagen ráster, 
+
+crea y evalua las clases o clúster (firmas), finalmente reclasifica de acuerdo a las probabilidades de cada clase. 
+
+Este procedimiento es muy práctico para crear de forma automática un mapa de uso del suelo o de cobertura vegetal   
+
+
+
 var image = ee.Image(l8.filterBounds(roi)   
     .filterDate('2016-01-01', '2018-12-31') 
     .sort('CLOUD_COVER')    
