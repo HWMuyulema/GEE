@@ -4,8 +4,6 @@ Los instrumentos a bordo de la misión Sentinel-1 emplean antenas RADAR para el 
 Gracias a que los datos RADAR no se ven afectados por las condiciones atmosféricas o por el hecho de ser de día o de noche,   
 la monitorización es constante .
 
-
-
 El lanzamiento del Sentinel-1A tuvo lugar el 3 de abril de 2014 y el del Sentinel-1B el 25 de abril de 2016.  
 Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
 
@@ -17,8 +15,12 @@ Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
 
 Single Look Complex (L-1 SLC): productos SAR de nivel 1 georreferenciados utilizando datos de la órbita y la altitud del satélite.  
 Ground Range Detected (L-1 GRD): productos SAR de nivel 1 que han sido proyectados usando un modelo elipsoidal de La Tierra.  
+
+
 Estos productos podemos encontrarlos además con 3 resoluciones: Full Resolution (FR), High Resolution (HR) y  
-Medium Resolution (MR). 
+Medium Resolution (MR).
+
+
 Ocean (L-2 OCN): productos oceánicos de nivel 2 con información sobre la velocidad y la dirección del viento. 
 
 
