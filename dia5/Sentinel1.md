@@ -22,13 +22,11 @@ Medium Resolution (MR).
 Ocean (L-2 OCN): productos oceánicos de nivel 2 con información sobre la velocidad y la dirección del viento. 
 
 
-## Por otra parte, habrá que tener en cuenta el modo en que se tomen los datos:  
+## Por otra parte, habrá que tener en cuenta el modo en que se tomen los datos: 
 
 
 
-
-**Stripmap (SM)**: que proporcionará datos con una resolución de 5x5m y un ancho de escena máximo 80km. 
-
+**Stripmap (SM)**: que proporcionará datos con una resolución de 5x5m y un ancho de escena máximo 80km.
 
 
 **Interferometric Wide Swath (IW)**:
