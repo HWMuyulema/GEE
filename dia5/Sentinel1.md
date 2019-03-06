@@ -28,23 +28,23 @@ Ocean (L-2 OCN): productos oceánicos de nivel 2 con información sobre la veloc
 
 **Stripmap (SM)**:
 
-que proporcionará datos con una resolución de 5x5m y un ancho de escena máximo 80km.
+Que proporcionará datos con una resolución de 5x5m y un ancho de escena máximo 80km.
 
 
 **Interferometric Wide Swath (IW)**:
 
-este modo combina un ancho de escena de 250km con una resolución moderada de 5x20m.  
+Este modo combina un ancho de escena de 250km con una resolución moderada de 5x20m.  
 Este es el modo por defecto sobre tierra.  
 
 
 **Extra-Wide Swath (EW)**:
 
-este modo se emplea sobre zonas marítimas y polares, donde se necesita una gran cobertura y tiempos  
+Este modo se emplea sobre zonas marítimas y polares, donde se necesita una gran cobertura y tiempos  
 de revisita cortos. El ancho de escena máximo en este modo es de 400km con una resolución de 20x40m.  
 
 **Wave Mode (WV)**:
 
-este modo pretende ayudar en la determinación de la dirección y altura de olas en el océano.  
+Este modo pretende ayudar en la determinación de la dirección y altura de olas en el océano.  
 Se compone de imágenes con una resolución de 20x20km que se adquieren alternativamente con dos ángulos de incidencia   
 cada 100km, es decir, dos imágenes con el mismo ángulo de incidencia están separadas 200km. 
 Además hay que tener en cuenta la polarización. Los productos en modo WV solo estarán disponibles para  
