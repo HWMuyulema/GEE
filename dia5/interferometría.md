@@ -14,9 +14,14 @@ L | 1 - 2 Ghz | 30 - 15 cm
 S | 2 - 4 GHz | 15 - 7.5 cm
 C | 4- 8 GHz | 7.5 - 3.75 cm
 X | 8 - 12.5 GHz | 3.75 - 2.4 cm
-kU | 12.5 - 18 GHz | 2.4 - 1.67 CM
+kU | 12.5 - 18 GHz | 2.4 - 1.67 cm
 k | 18 - 26.5 GHz | 1.67 - 1.1 cm
 ka | 26.5 - 40 GHz | 1.1 - 0.75 cm
+
+## pOLARIZACIÓN
+Las antenas de los sistemas de radar se pueden configurar para transmitir y recibir radiación electromagnética polarizada ya sea horizontal o verticalmente.
+Cuando la energía transmitida es polarizada en la misma dirección que la recibida, al sistema se le conoce como de polarización similar. HH indica que la energía se transmite y se recibe horizontalmente polarizada; VV que la energía se transmite y se recibe verticalmente polarizada.
+La reflexión de una onda de radar al chocar en una superficie puede modificar la polarización, dependiendo de las propiedades de la superficie misma.
 
 ## [Interferometría RADAR](http://luciovilla.blogspot.com/2017/01/radar-sentinel-1-aplicado-al-monitoreo.html) 
 
