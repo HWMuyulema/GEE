@@ -1,3 +1,9 @@
+var imageCollection : ImageCollection"Sentinel-1 SAR GRD...
+Var  table : table (subir la tabla propuesta)
+var Geometry ; Polygon (hacer un poligono del área propuesta)
+
+----------------
+
 var teos1 = ee.ImageCollection('COPERNICUS/S1_GRD')  
     .filterDate('2018-12-01', '2018-12-14')  
     .filterMetadata('instrumentMode','equals','IW')  
@@ -71,3 +77,6 @@ Export.table.toDrive({
   description: "vectores",   
     fileFormat:"KML"  
 })
+
+
+[Ejercicio radar](https://code.earthengine.google.com/c79b38cf504a0030170775d2bb547aa4)
