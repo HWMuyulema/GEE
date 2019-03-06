@@ -9,6 +9,14 @@ De este modo, se puede trabajar en condiciones de falta total de luz y cualquier
 |   |   |    |
 |---|---|---|
 **BANDA** | **FRECUENCIA** | **LONG. DE ONDA**
+p | 300 MHz- 1 ghZ | 100 - 30 cm
+L | 1 - 2 Ghz | 30 - 15 cm
+S | 2 - 4 GHz | 15 - 7.5 cm
+C | 4- 8 GHz | 7.5 - 3.75 cm
+X | 8 - 12.5 GHz | 3.75 - 2.4 cm
+kU | 12.5 - 18 GHz | 2.4 - 1.67 CM
+k | 18 - 26.5 | 1.67 - 1.1 cm
+ka | 26.5 - 40 | 1.1 - 0.75 cm
 
 ## [Interferometría RADAR](http://luciovilla.blogspot.com/2017/01/radar-sentinel-1-aplicado-al-monitoreo.html) 
 
