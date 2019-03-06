@@ -17,12 +17,12 @@ Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
 |     |     |
 |---|---|
 **Parámetros** | **Sentinel 1**
-agencia | Eurpean Space Agency (ESA)
+Agencia | Eurpean Space Agency (ESA)
 Altutud de Órbita | 693 km.
 Bandas de radar | C-Band (5.4 GHz)
 Ángulo de incidencia | 15 - 45 ° al nadir
 Modo de imagen SAR | Stripmap (GSD:5m,80 km swath), Interferometric Wide Swath Mode(GSD:5x20m, 240 km swath, extra Wide Swath Mode (400km,single-look),Wave Mode (20x5)
-Polarización | VV+Vh o HH+HV
+Polarización | VV+VH o HH+HV
 Distancia de Muestreo (GSD)| 5 - 20m
 Resolución | 5m x 20m
 Swath Width | 250 km.
