@@ -89,7 +89,6 @@ Map.setCenter(-79.39768715569062, -1.7434849510029904, 13);
 La información obtenida puede ser exportada como image:
 
 
-```
 javascript 
 Export.image.toDrive({ 
   image:corte, 
@@ -100,6 +99,6 @@ Export.image.toDrive({
   scale:10 
  });
 
-```
+
 
 
