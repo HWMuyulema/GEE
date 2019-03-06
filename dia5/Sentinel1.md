@@ -1,4 +1,4 @@
-# [Sentinel-1 – Imágenes RADAR](http://www.inta.es/opencms/export/sites/default/INTA/es/blogs/copernicus/BlogEntry_1507278650016/)
+# [Sentinel-1  Imágenes RADAR](http://www.inta.es/opencms/export/sites/default/INTA/es/blogs/copernicus/BlogEntry_1507278650016/)
 
 El satélite sentinel 1 formó parte de la **primera misión espacial Copernico**, Los instrumentos a bordo de la misión Sentinel-1 emplean antenas RADAR SAR (Radar de Apertura Sintica, por sus siglas en inglés) ara el estudio de la superficie terrestre y oceánica. 
 
