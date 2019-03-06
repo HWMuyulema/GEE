@@ -1,7 +1,7 @@
 # Clasificación supervisada
 
 
-La clasificación supervisada y no supervisada permite explorar diferentes tipos de atributos o clases por medio del análisis 
+La [clasificación supervisada y no supervisada](https://acolita.com/clasificacion-supervisada-no-supervisada-en-arcgis/) permite explorar diferentes tipos de atributos o clases por medio del análisis 
 
 estadístico multivariado, este proceso identifica los valores de cada píxel de una o varias bandas de una imagen ráster, 
 
