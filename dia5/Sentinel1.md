@@ -76,3 +76,7 @@ cada 100km, es decir, dos imágenes con el mismo ángulo de incidencia están se
 Además hay que tener en cuenta la polarización. Los productos en modo WV solo estarán disponibles para  
 polarización simple (VV o HH) y para los demás modos, SM, IW y EW, estarán disponibles en polarización dual   
 (VV+VH o HH+HV) o simple.
+
+## como acceder a las imágenes de Sentinel 1
+* [Alaska SAR Facility](https://www.asf.alaska.edu/sentinel/)
+* [European Space Agency Portal](https://earth.esa.int/web/guest/home;jsessionid=1448D76F9BEDCA3811CF47069E1B3EF5.jvm2)
