@@ -87,4 +87,4 @@ polarización simple (VV o HH) y para los demás modos, SM, IW y EW, estarán di
 
 ## Nomenclatura del archivo
 Existen tres tipos de archivos: CLS, GND, OCN:      
-![100% center](../images/sentinel1.png)
+![100% center](../images/sentinel.png)
