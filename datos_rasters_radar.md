@@ -91,13 +91,13 @@ La información obtenida puede ser exportada como image:
 
 ```
 javascript
-Export.image.toDrive({
-  image:corte,
-  description:'teos_clementina',
-  region:geometry,
-  crs:'EPSG:32717',
-  maxPixels:1e12,
-  scale:10
+Export.image.toDrive({ 
+  image:corte, 
+  description:'teos_clementina', 
+  region:geometry, 
+  crs:'EPSG:32717', 
+  maxPixels:1e12, 
+  scale:10 
  });
 
 ```
