@@ -64,11 +64,12 @@ Map.addLayer(zonas,{},'',0)
 
 print('vectores',vectors)
 
-// Display the thresholds.  
+// desplegar los umbrales.  
 //Map.setCenter(139.6225, 35.712, 9);  
 Map.addLayer(zonas, {min: 1, max: 2}, 'raster');  
+ 
+// Hacer  una imagen para vectores, y añadirla al mapa
 
-// Make a display image for the vectors, add it to the map.  
 var display = ee.Image(0).updateMask(0).paint(vectors, '000000', 2);  
 Map.addLayer(display, {}, 'vectors');  
 
