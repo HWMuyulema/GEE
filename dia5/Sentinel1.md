@@ -47,6 +47,10 @@ Medium Resolution (MR).
 
 Ocean (L-2 OCN): productos oceánicos de nivel 2 con información sobre la velocidad y la dirección del viento. 
 
+## Nomenclatura
+
+
+
 
 ## Por otra parte, habrá que tener en cuenta el modo en que se tomen los datos: 
 
