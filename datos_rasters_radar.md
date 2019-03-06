@@ -1,6 +1,6 @@
 ﻿# Unidad 3: Manejo de datos rasters Radar SAR Sentinel 1
 
-Contenidos: Seleccionar colecciones, filtros por áreas, por fechas y por nubes. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como imágenes.
+Contenidos: Seleccionar colecciones, filtros por áreas,y por fechas. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como imágenes.
 
  - Script de ejemplo __Radar SAR Sentinel 1__: [Ver](https://code.earthengine.google.com/c79b38cf504a0030170775d2bb547aa4)
  
@@ -15,7 +15,7 @@ Cada producto tiene un código asociado (ImageCollection ID) y una nomenclatura 
 
 ### Escoger una colección
 
-Seleccionaremos una colección, en este caso: **LANDSAT/LC8\_L1T\_TOA**. El objeto que se utiliza para representar colecciones de imágenes es un [ee.ImageCollection](https://developers.google.com/earth-engine/api_docs#eeimagecollection).
+Seleccionaremos una colección, en este caso: **Sentinel-1 SAR GRD**. El objeto que se utiliza para representar colecciones de imágenes es un [ee.ImageCollection](https://developers.google.com/earth-engine/api_docs#eeimagecollection).
 
 ```javascript
 // Seleccionar producto. Indicar el ImageCollection ID
