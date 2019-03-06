@@ -8,7 +8,7 @@ De este modo, se puede trabajar en condiciones de falta total de luz y cualquier
 
 |   |   |    |
 |---|---|---|
-**BANDA | FRECUENCIA | LONG. DE ONDA**
+**BANDA** | **FRECUENCIA** | **LONG. DE ONDA**
 
 ## [Interferometría RADAR](http://luciovilla.blogspot.com/2017/01/radar-sentinel-1-aplicado-al-monitoreo.html) 
 
