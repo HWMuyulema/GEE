@@ -31,7 +31,9 @@ La situación se complica cuando estamos iluminando una superficie con pendiente
 
 ## Caracteristicas de la señal
 La RCS normalizada se mide generalmente en decibelios y representa las propiedades generales de dispersión de la escena iluminada.
+
 Depende de las características físicas (forma, rugosidad, etc.) y químicas (constantes dieléctricas y magnéticas, contenido de agua, etc.) del terreno.
+
 Adicionalmente, depende de la longitud de onda del campo incidente, la polarización y el ángulo de incidencia.
 
 
