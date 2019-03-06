@@ -83,6 +83,8 @@ Map.addLayer(radar1, {bands: ['VV'], min: -6, max:-0.5,palette:['FFFFFF','CE7E45
 
 
 // centrar en area de estudio - indicar nivel de zoom
+
+
 Map.setCenter(-79.39768715569062, -1.7434849510029904, 13);
 ```
 
