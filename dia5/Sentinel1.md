@@ -1,11 +1,16 @@
 # Sentinel-1 – Imágenes RADAR
 
-Los instrumentos a bordo de la misión Sentinel-1 emplean antenas RADAR para el estudio de la superficie terrestre y oceánica.   
+El satélite sentinel 1 formó parte de la **primera misión espacial Copernico**, Los instrumentos a bordo de la misión Sentinel-1 emplean antenas RADAR SAR (Radar de Apertura Sintica, por sus siglas en inglés) ara el estudio de la superficie terrestre y oceánica. 
+
+
 Gracias a que los datos RADAR no se ven afectados por las condiciones atmosféricas o por el hecho de ser de día o de noche,   
 la monitorización es constante .
 
 El lanzamiento del Sentinel-1A tuvo lugar el 3 de abril de 2014 y el del Sentinel-1B el 25 de abril de 2016.  
 Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
+|     |     |
+|---|---|
+**Parámetros** | **Sentinel 1
 
 
 
