@@ -90,7 +90,7 @@ La información obtenida puede ser exportada como image:
 
 
 ```
-javascript
+javascript 
 Export.image.toDrive({ 
   image:corte, 
   description:'teos_clementina', 
