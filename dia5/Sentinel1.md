@@ -12,7 +12,10 @@ Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
 
 |     |     |
 |---|---|
-**Parámetros** | **Sentinel 1
+**Parámetros** | **Sentinel 1**
+Altutud de Órbita | 639km.
+Bandas de radar | C-Band
+Modo de imagen SAR | Stripmap (GSD:5m,80 km swath), Interferometric Wide Swath Mode(GSD:5x20m, 240 km swath, extra Wide Swath Mode (400km,single-look),Wave Mode (20x5)
 
 
 
