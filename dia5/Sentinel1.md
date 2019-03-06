@@ -1,4 +1,4 @@
-# Sentinel-1 – Imágenes RADAR
+# [Sentinel-1 – Imágenes RADAR](http://www.inta.es/opencms/export/sites/default/INTA/es/blogs/copernicus/BlogEntry_1507278650016/)
 
 El satélite sentinel 1 formó parte de la **primera misión espacial Copernico**, Los instrumentos a bordo de la misión Sentinel-1 emplean antenas RADAR SAR (Radar de Apertura Sintica, por sus siglas en inglés) ara el estudio de la superficie terrestre y oceánica. 
 
@@ -9,7 +9,7 @@ la monitorización es constante .
 El lanzamiento del Sentinel-1A tuvo lugar el 3 de abril de 2014 y el del Sentinel-1B el 25 de abril de 2016.  
 Estando a día de hoy ambos operativos, el ciclo de revisita es de 6 días.
 
-##Inofrmación general del satelite Sentinel 1
+## Información general del satelite Sentinel 1
 
 [Tabla 1](http://geocento.es/galeria-de-satelites-para-buscar-y-adquirir-imagenes/satelite-imagenes-sentinel-1/)
 
