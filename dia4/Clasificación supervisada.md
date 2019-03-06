@@ -7,7 +7,10 @@ estadístico multivariado, este proceso identifica los valores de cada píxel de
 
 crea y evalua las clases o clúster (firmas), finalmente reclasifica de acuerdo a las probabilidades de cada clase. 
 
-Este procedimiento es muy práctico para crear de forma automática un mapa de uso del suelo o de cobertura vegetal   
+Este procedimiento es muy práctico para crear de forma automática un mapa de uso del suelo o de cobertura vegetal  
+
+
+# GEE
 
 
 
