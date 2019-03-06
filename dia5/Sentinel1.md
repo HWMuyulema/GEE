@@ -86,7 +86,6 @@ polarización simple (VV o HH) y para los demás modos, SM, IW y EW, estarán di
 * [European Space Agency Portal](https://earth.esa.int/web/guest/home;jsessionid=1448D76F9BEDCA3811CF47069E1B3EF5.jvm2)
 
 ## Nomenclatura del archivo
-Existen tres tipos de archivos: CLS. GND, OCN:
+Existen tres tipos de archivos: CLS. GND, OCN:    
 
-![60% center](../images/sentinel_nom.png)
 ![100% center](../images//sentinel_nom.png)
