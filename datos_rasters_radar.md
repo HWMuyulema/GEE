@@ -6,7 +6,7 @@ Contenidos: Seleccionar colecciones, filtros por áreas,y por fechas. Construir 
  
 ## Trabajar con colecciones de imágenes
 
-En la plataforma existe una gran cantidad de fuentes de información entre las que se incluye tanto información de base como imágenes satelitales, De sendsores activos como son los sendores RADAR SAR entre otros.
+En la plataforma existe una gran cantidad de fuentes de información entre las que se incluye tanto información de base como imágenes satelitales, De sensores activos como son los sensores RADAR SAR.
 
 En este caso vamos a seleccionar un producto y lo vamos a filtrar (acotar) a las necesidades particulares (intervalo de tiempo y área de interés), ya que generalmente el alcance es global y se disponen largas series temporales.
 
