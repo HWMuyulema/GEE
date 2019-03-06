@@ -77,6 +77,10 @@ Además hay que tener en cuenta la polarización. Los productos en modo WV solo 
 polarización simple (VV o HH) y para los demás modos, SM, IW y EW, estarán disponibles en polarización dual   
 (VV+VH o HH+HV) o simple.
 
-## como acceder a las imágenes de Sentinel 1
+## [Como acceder a las imágenes de Sentinel 1](https://arset.gsfc.nasa.gov/sites/default/files/disasters/SAR-17/Session2-SAR-Spanish.pdf)
 * [Alaska SAR Facility](https://www.asf.alaska.edu/sentinel/)
 * [European Space Agency Portal](https://earth.esa.int/web/guest/home;jsessionid=1448D76F9BEDCA3811CF47069E1B3EF5.jvm2)
+
+## Nomenclatura del archivo
+Existen tres tipos de archivos: CLS. GND, OCN
+  *SLC: 
