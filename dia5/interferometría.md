@@ -23,11 +23,11 @@ Las antenas de los sistemas de radar se pueden configurar para transmitir y reci
 Cuando la energía transmitida es polarizada en la misma dirección que la recibida, al sistema se le conoce como de polarización similar. HH indica que la energía se transmite y se recibe horizontalmente polarizada; VV que la energía se transmite y se recibe verticalmente polarizada.
 La reflexión de una onda de radar al chocar en una superficie puede modificar la polarización, dependiendo de las propiedades de la superficie misma.
 
-## Distorcines geom+étricas 
+## Distorcines geommétricas 
 La situación se complica cuando estamos iluminando una superficie con pendiente α. Los tres casos de interés son:
-• Foreshortening (Escorzo)
-• Layover
-• Shadow
+* Foreshortening (Escorzo)
+* Layover
+* Shadow
 
 ## [Interferometría RADAR](http://luciovilla.blogspot.com/2017/01/radar-sentinel-1-aplicado-al-monitoreo.html) 
 
