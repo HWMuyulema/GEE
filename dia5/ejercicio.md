@@ -4,12 +4,12 @@ var Geometry ; Polygon (hacer un poligono del área propuesta)
 
 ----------------
 
-var teos1 = ee.ImageCollection('COPERNICUS/S1_GRD')  
-    .filterDate('2018-12-01', '2018-12-14')  
-    .filterMetadata('instrumentMode','equals','IW')  
-    .filterMetadata('orbitProperties_pass','equals','DESCENDING')  
-    .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
-    .select(['VV']);
+var teos1 = ee.ImageCollection('COPERNICUS/S1_GRD') | 
+    .filterDate('2018-12-01', '2018-12-14') | 
+    .filterMetadata('instrumentMode','equals','IW') | 
+    .filterMetadata('orbitProperties_pass','equals','DESCENDING')|  
+    .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))    
+    .select(['VV']);    
 
     .filterBounds(geometry)  
     
