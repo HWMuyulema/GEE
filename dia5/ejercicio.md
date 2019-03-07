@@ -14,12 +14,18 @@ var teos1 = ee.ImageCollection('COPERNICUS/S1_GRD') |
     .filterBounds(geometry)  
     
    // Create a 3 band stack by selecting from different periods (months)
+   
 // var im1 = ee.Image(collectionVV.filterDate('2018-11-01', '2019-01-31').mean());
+
 // var im2 = ee.Image(collectionVV.filterDate('2016-02-01', '2016-03-15').mean());
+
 // var im3 = ee.Image(collectionVV.filterDate('2016-03-16', '2016-04-30').mean());
 
+
 // Map.centerObject(geometry, 15);
+
 // Map.addLayer(im1.addBands(im2).addBands(im3), {min: -16, max: -4}, 'VV stack');
+
 
     
     //Map.setCenter(-79,-1,8)  
