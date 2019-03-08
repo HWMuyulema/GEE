@@ -1,6 +1,6 @@
 # Introducción a Google Earth Engine (GEE)
 
-## Día 1
+
 
 Descripción general Google Earth Engine (Componentes de GE. Code Editor, Explorer y Clientes API). Analizaremos un script complejo con un producto final.
 
@@ -14,7 +14,7 @@ Nociones básicas de Code Editor: Introducción al lenguaje Javascript. Visión 
   * [Manejo de datos rasters](https://github.com/HWMuyulema/GEE/blob/master/datos_rasters.md): Seleccionar colecciones, filtros por áreas, por fechas y por nubes. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
   * [Manejo de datos radar](https://github.com/HWMuyulema/GEE/blob/master/datos_rasters_radar.md): Seleccionar colecciones, filtros por áreas y por fechas. Construir máscaras. Visualización. Cómo exportar imágenes (ventajas y limitaciones del servicio). Funciones de agregación. Cálculos de índices (NDVI, spectral unmixing e indicadores MapBiomas ndfi, por ejemplo, etc.). Generación de expresiones. Extracción de información a partir de features (agregación por medias, máximos, mínimos, etc.). Exportar como tabla de datos. Realizar gráficos.
 
-## Día 2
+
 
 ### Casos de uso: Tutorial
 
