@@ -96,4 +96,4 @@ Export.table.toDrive({
 })
 
 
-[Ejercicio radar](https://code.earthengine.google.com/c79b38cf504a0030170775d2bb547aa4)
+[Ejercicio radar](https://code.earthengine.google.com/0e34734af6db20bbd8c3190eae1a6352)
