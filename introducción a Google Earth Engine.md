@@ -11,5 +11,5 @@
   - [manual de nuevas herramienta para GEE 2018](https://ourcodingclub.github.io/2018/11/26/earth-engine.html)
   - [Para poner colores en palette de GEE](https://github.com/gee-community/ee-palettes)
   - [Novedades en GEE](https://medium.com/google-earth/whats-new-in-earth-engine-new-functions-and-features-1dc823c089c5)
-  [Introducción de GEE](https://ourcodingclub.github.io/2018/11/26/earth-engine.html)
+  - [Introducción de GEE](https://ourcodingclub.github.io/2018/11/26/earth-engine.html)
 
